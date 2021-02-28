@@ -4,8 +4,6 @@ let burger = body.querySelector(".burger-menu");
 let navList = body.querySelector(".menu-nav__list");
 let menuNavItem = body.querySelectorAll('.menu-nav__item');
 
-console.log(menuNavItem)
-
 function toggleMenu () {
    body.classList.toggle("open-menu");
 }
