@@ -1,0 +1,31 @@
+.phone {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 160px;
+
+    .phone__icon {
+        max-width: 14px;
+        max-height: 14px;
+        margin-right: 5px;
+    }
+
+    .phone__link {
+        font-family: "Play-Regular";
+        color: $color-grey-text;
+        font-size: 1.1rem;
+        line-height: 1.1rem;
+        text-decoration: none;
+    }
+
+    &:hover {
+        .phone__link {
+            color: #E01F3D;
+            transition: all .5s;
+        }
+
+        .phone__icon {
+            fill: #E01F3D;
+        }
+    }
+}

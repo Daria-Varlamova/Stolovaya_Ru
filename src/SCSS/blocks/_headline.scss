@@ -1,0 +1,30 @@
+.headline-container {
+    width: 100%;
+    max-width: 590px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.headline,
+.section-head__title {
+    margin-bottom: 16px;
+    font-family: "Play-Bold";
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 3.25rem;
+}
+
+.section-head__subtitle {
+    font-family: "AlegreyaSans-R";
+    font-size: 1.31rem;
+    line-height: 1.5rem;
+    margin-bottom: 36px;
+}
+
+.headline__subtitle,
+.benefit__text {
+    font-family: "Play-Regular";
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: $color-grey-text;
+}

@@ -1,0 +1,85 @@
+.slider {
+    width: 100%;
+
+    .bx-wrapper {
+        border: none;
+        background: transparent;
+        box-shadow: none;
+    }
+}
+
+.slider__controls {
+    width: 100%;
+
+    .slider__btn {
+        display: block;
+        width: 14px;
+        height: 40px;
+        position: absolute;
+        z-index: 100;
+        top: 50%;
+        transform: translateY(-50%)
+    }
+
+    .slider__arrow {
+        width: 14px;
+        height: 100%;
+    }
+
+    .slider__btn--prev {
+        transform: translateY(-50%) rotate(-180deg);
+        left: -2%;
+    }
+
+    .slider__btn--next {
+        right: -2%;
+    }
+}
+
+
+.slider__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slider__left {
+    width: 45%;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.slider__right {
+    width: 45%;
+    padding-top: 5px;
+}
+
+.slider_title {
+    font-size: 2.25rem;
+    margin: 24px 0;
+    line-height: 2.62rem;
+    text-transform: uppercase;
+    font-family: "Play-Bold";
+}
+
+.slider__description,
+.options__item {
+    max-width: 80%;
+    color: $color-grey-text;
+    font-size: 1.25rem;
+    line-height: 1.2rem;
+}
+
+.options__item--color-black {
+    font-family: "Play-Bold";
+    color: black;
+}
+
+.slider__row {
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+    min-width: 330px;
+}

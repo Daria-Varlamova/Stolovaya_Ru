@@ -1,0 +1,23 @@
+.specification {
+    position: relative;
+    width: 91px;
+    height: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $bg-color-specification;
+    border-radius: 4px;
+    box-shadow: 0px 0px 7px 1px;
+
+    &:hover .feature {
+        transition: all  .7s;
+        display: block;
+    }
+}
+
+
+.specification__icon {
+    max-width: 42px;
+    max-height: 42px;
+    fill: #FFFFFF;
+}

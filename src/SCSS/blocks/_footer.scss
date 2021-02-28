@@ -1,0 +1,43 @@
+.footer {
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+}
+
+.footer__contacts {
+    width: 100%;
+    padding: 18px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__icon-social {
+    margin: 15px 0;
+}
+
+.icon-social__link {
+    fill: #B3B3B3;
+    max-width: 24px;
+    max-height: 24px;
+    margin-right: 5px;
+
+    &:hover {
+        fill: black;
+        transition: all .5s;
+    }
+}
+
+.footer__adres-container {
+    font-family: "Play-Regular";
+    color: $color-grey-text;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
+}
+
+.footer__adres {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,39 @@
+.fixed-menu {
+    position: fixed;
+    top: 30%;
+    right: 3%;
+    z-index: 100;
+}
+
+.fixed-menu__item {
+    margin-bottom: 5px;
+
+    &--active {
+        .fixed-menu__link {
+           border: 1px solid #E01F3D;
+
+           .menu-link-dot-decoration {
+               background-color: #E01F3D;
+           }
+        }
+    }
+}
+
+.fixed-menu__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    position: relative;
+
+    .menu-link-dot-decoration {
+        display: block;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: #C4C4C4;
+    }
+}

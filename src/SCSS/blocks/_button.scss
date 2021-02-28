@@ -1,0 +1,18 @@
+.btn {
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-family: "Play-Bold";
+    background-color: $color-red-button;
+    color: $color-white;
+    padding: 21px 41px;
+    font-size: 1rem;
+    line-height: 1.1rem;
+
+    &:hover {
+        color: $color-red-button;
+        background-color: $color-white;
+        transition: all .5s;
+    }
+}

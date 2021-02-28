@@ -1,0 +1,19 @@
+.order-section {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -2%;
+        right: 15%;
+        width: 34px;
+        height: 34px;
+        // background-image: url('./images/elem-5.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

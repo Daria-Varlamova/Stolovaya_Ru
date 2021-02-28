@@ -1,0 +1,132 @@
+// Variables
+
+$color-grey-text : #666666;
+$color-red-button : #E01F3D;
+$color-white: #FFFFFF;
+$bg-color-section : #F5F5F5;
+$headlineblack : #292929;
+$bg-color-specification:#9A9A9A;
+
+// html 
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+
+@import '../SCSS/_fonts';
+
+@import '../SCSS/blocks/_button';
+@import '../SCSS/blocks/_header';
+@import '../SCSS/blocks/_menu';
+@import '../SCSS/blocks/_advantage';
+@import '../SCSS/blocks/_logo';
+@import '../SCSS/blocks/_headline';
+@import '../SCSS/blocks/_benefit';
+@import '../SCSS/blocks/_interactiveAvatar';
+@import '../SCSS/blocks/_form';
+@import '../SCSS/blocks/_radio';
+@import '../SCSS/blocks/_fixedMenu';
+@import '../SCSS/blocks/_phone';
+@import '../SCSS/blocks/_footer';
+@import '../SCSS/blocks/_burger';
+@import '../SCSS/blocks/_slider';
+@import '../SCSS/blocks/_specification';
+@import '../SCSS/blocks/_feature';
+@import '../SCSS/blocks/_options';
+@import '../SCSS/blocks/_accordion';
+@import '../SCSS/blocks/_modal';
+
+@import '../SCSS/blocks/_section';
+@import '../SCSS/blocks/_sectionHead';
+@import '../SCSS/blocks/_sectionBenefits';
+@import '../SCSS/blocks/_sectionReviwes';
+@import '../SCSS/blocks/_sectionOrder';
+@import '../SCSS/blocks/_sectionMap';
+@import '../SCSS/blocks/_sectionShop';
+@import '../SCSS/blocks/_sectionTeam';
+@import '../SCSS/blocks/_sectionColors';
+@import '../SCSS/blocks/_sectionVideo';
+
+@import '../SCSS/blocks/_responsive';
+
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.maincontent {
+    height: 100%;
+    transition: transform 1s;
+    will-change: transition;
+}
+
+.container {
+    width: 95%;
+    max-width: 940px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    // min-height: 650px;
+}
+
+.flex-position {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prices {
+    font-family: "Play-Regular";
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    line-height: 3.75rem;
+}
+
+.open-menu {
+    overflow: hidden;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+        list-style: none;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    font-weight: normal;
+}
+
+p {
+    margin: 0;
+}
