@@ -26,6 +26,9 @@
     display: flex;
     visibility: visible;
 
+    .colors-acco__item .colors-acco__content:hover {
+        width: 500px;
+    }
     &.active {
         // order: 1;
         .colors-acco__content {

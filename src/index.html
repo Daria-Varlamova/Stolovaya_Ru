@@ -12,59 +12,60 @@
 
 <body>
     <div class="wrapper">
+        <div class="header-conteiner">
+            <header class="header">
+                <a href="#" class="logo">
+                    <img src="./images/logo.png" alt="Beats">
+                </a>
+                <nav class="menu-nav menu-nav__active">
+                    <ul class="menu-nav__list">
+                        <li class="menu-nav__item">
+                            <a data-scroll-to="1" href="#" class="menu-nav__link">О нас</a>
+                        </li>
+
+                        <li class="menu-nav__item">
+                            <a data-scroll-to="2" href="#" class="menu-nav__link">Наушники</a>
+                        </li>
+
+                        <li class="menu-nav__item">
+                            <a data-scroll-to="3" href="#" class="menu-nav__link">Команда</a>
+                        </li>
+
+                        <li class="menu-nav__item">
+                            <a data-scroll-to="4" href="#" class="menu-nav__link">Цвета</a>
+                        </li>
+
+                        <li class="menu-nav__item">
+                            <a data-scroll-to="5" href="#" class="menu-nav__link">Отзывы</a>
+                        </li>
+
+                        <li class="menu-nav__item">
+                            <a data-scroll-to="6" href="#" class="menu-nav__link">Как мы работаем</a>
+                        </li>
+
+                        <li class="menu-nav__item">
+                            <a data-scroll-to="7" href="#" class="menu-nav__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="phone">
+                    <svg class="phone__icon">
+                        <use href="./sprite.svg#phone">
+                        </use>
+                    </svg>
+                    <a href="tell:+78009039090" class="phone__link">8 800 903 90 90</a>
+                </div>
+
+                <div class="burger-menu">
+                    <div class="burger-menu__line"></div>
+                    <div class="burger-menu__line"></div>
+                    <div class="burger-menu__line"></div>
+                </div>
+            </header>
+        </div>
         <div class="maincontent">
             <section data-sidemenu-theme="#E01F3D" data-section-index="0" class="section section-head">
                 <div class="container">
-                    <header class="header">
-                        <a href="#" class="logo">
-                            <img src="./images/logo.png" alt="Beats">
-                        </a>
-                        <nav class="menu-nav menu-nav__active">
-                            <ul class="menu-nav__list">
-                                <li class="menu-nav__item">
-                                    <a data-scroll-to="1" href="#" class="menu-nav__link">О нас</a>
-                                </li>
-
-                                <li class="menu-nav__item">
-                                    <a data-scroll-to="2" href="#" class="menu-nav__link">Наушники</a>
-                                </li>
-
-                                <li class="menu-nav__item">
-                                    <a data-scroll-to="3" href="#" class="menu-nav__link">Команда</a>
-                                </li>
-
-                                <li class="menu-nav__item">
-                                    <a data-scroll-to="4" href="#" class="menu-nav__link">Цвета</a>
-                                </li>
-
-                                <li class="menu-nav__item">
-                                    <a data-scroll-to="5" href="#" class="menu-nav__link">Отзывы</a>
-                                </li>
-
-                                <li class="menu-nav__item">
-                                    <a data-scroll-to="6" href="#" class="menu-nav__link">Как мы работаем</a>
-                                </li>
-
-                                <li class="menu-nav__item">
-                                    <a data-scroll-to="7" href="#" class="menu-nav__link">Контакты</a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div class="phone">
-                            <svg class="phone__icon">
-                                <use href="./sprite.svg#phone">
-                                </use>
-                            </svg>
-                            <a href="tell:+78009039090" class="phone__link">8 800 903 90 90</a>
-                        </div>
-
-                        <div class="burger-menu">
-                            <div class="burger-menu__line"></div>
-                            <div class="burger-menu__line"></div>
-                            <div class="burger-menu__line"></div>
-                        </div>
-                    </header>
-
                     <div class="section-head__content">
                         <div class="section-head__content-text">
                             <div class="section-head__container-title">
@@ -399,7 +400,7 @@
                                                 14 990 ₽
                                             </span>
                                         </div>
-                                        <button  data-scroll-to="7"  class="btn">ЗАКАЗАТЬ</button>
+                                        <button data-scroll-to="7" class="btn">ЗАКАЗАТЬ</button>
                                     </div>
                                 </div>
                             </li>
@@ -622,7 +623,7 @@
                 </div>
 
                 <ul class="colors-acco">
-                    <li class="colors-acco__item">
+                    <li class="colors-acco__item active">
                         <a href="#" class="colors-acco__trigger bg-grey">
                             <span class="colors-acco__trigger-text">«Атласное серебро»</span>
                         </a>
@@ -815,13 +816,12 @@
                 </div>
                 <div class="video__container">
                     <div class="video__player">
-                        <div id="player"></div>  
+                        <div id="player"></div>
                     </div>
                     <div class="video__toolbar">
                         <div class="duration">
                             <img id="playButton" class="play duration_img" src="./images/1.png" alt="Play">
-                            <img id="pauseButton" class="pause duration_img" src="./images/pause.svg"
-                                alt="Pause">
+                            <img id="pauseButton" class="pause duration_img" src="./images/pause.svg" alt="Pause">
                             <input id="durationLevel" type="range" class="duration__length">
                         </div>
                         <div class="sound">
@@ -884,7 +884,8 @@
                             <div class="form__row">
                                 <label class="form__block">
                                     <div class="form__title">Комментарий</div>
-                                    <textarea tabindex="8" name="comment" class="form__input form__input--textarea" type="textarea"></textarea>
+                                    <textarea tabindex="8" name="comment" class="form__input form__input--textarea"
+                                        type="textarea"></textarea>
                                 </label>
                             </div>
 
@@ -1015,7 +1016,7 @@
 
         <script src="https://www.youtube.com/iframe_api"></script>
         <script src="./scripts/video.js"></script>
-        
+
         <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
         <script src="./scripts/map.js"></script>
 
