@@ -1,18 +1,12 @@
-.btn {
-    border-radius: 100px;
-    border: none;
+.swiper-slide__btn {
+    background-color: #ffaf2d;
+    border:  none;
+    border-radius: 20px;
+    text-align: center;
     cursor: pointer;
     outline: none;
-    font-family: "Play-Bold";
-    background-color: $color-red-button;
-    color: $color-white;
-    padding: 21px 41px;
-    font-size: 1rem;
-    line-height: 1.1rem;
-
-    &:hover {
-        color: $color-red-button;
-        background-color: $color-white;
-        transition: all .5s;
-    }
+    font-size: 18px;
+    color: #ffffff;
+    padding: 7px 20px;
+    max-height: 35px;
 }

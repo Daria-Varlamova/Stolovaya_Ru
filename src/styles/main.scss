@@ -1,19 +1,56 @@
 // Variables
 
-$color-grey-text : #666666;
-$color-red-button : #E01F3D;
-$color-white: #FFFFFF;
-$bg-color-section : #F5F5F5;
-$headlineblack : #292929;
-$bg-color-specification:#9A9A9A;
-
 // html 
 
 html,
 body {
+    font-family: "PTS_normal";
     width: 100%;
     height: 100%;
-    font-size: 16px;
+    font-size: 14px;
+    background-color: #e8e7e7;
+
+    &.menu-open {
+        overflow: hidden;
+
+        .group-menu {
+            display: flex;
+        }
+
+        .adaptive__burger-menu {
+
+            span {
+                margin: 0;
+
+                &:first-child {
+                    transform: rotate(45deg);
+                }
+
+                &:nth-child(2) {
+                    display: none;
+                }
+
+                &:last-child {
+                    transform: rotate(-45deg);
+                    position: relative;
+                    top: -2px;
+                }
+            }
+        }
+    }
+
+    .footer-top__block {
+
+        &.active {
+            .footer-top__list {
+                display: block;
+            }
+
+            .footer-top__title-list span::after {
+                content: '-';
+            }
+        }
+    }
 }
 
 
@@ -21,55 +58,27 @@ body {
 
 @import '../SCSS/blocks/_button';
 @import '../SCSS/blocks/_header';
-@import '../SCSS/blocks/_menu';
-@import '../SCSS/blocks/_advantage';
-@import '../SCSS/blocks/_logo';
-@import '../SCSS/blocks/_headline';
-@import '../SCSS/blocks/_benefit';
-@import '../SCSS/blocks/_interactiveAvatar';
-@import '../SCSS/blocks/_form';
-@import '../SCSS/blocks/_radio';
-@import '../SCSS/blocks/_fixedMenu';
-@import '../SCSS/blocks/_phone';
 @import '../SCSS/blocks/_footer';
-@import '../SCSS/blocks/_burger';
 @import '../SCSS/blocks/_slider';
-@import '../SCSS/blocks/_specification';
-@import '../SCSS/blocks/_feature';
-@import '../SCSS/blocks/_options';
-@import '../SCSS/blocks/_accordion';
-@import '../SCSS/blocks/_modal';
 
-@import '../SCSS/blocks/_section';
-@import '../SCSS/blocks/_sectionHead';
-@import '../SCSS/blocks/_sectionBenefits';
-@import '../SCSS/blocks/_sectionReviwes';
-@import '../SCSS/blocks/_sectionOrder';
-@import '../SCSS/blocks/_sectionMap';
-@import '../SCSS/blocks/_sectionShop';
-@import '../SCSS/blocks/_sectionTeam';
-@import '../SCSS/blocks/_sectionColors';
-@import '../SCSS/blocks/_sectionVideo';
-
-@import '../SCSS/blocks/_responsive';
-
+@import '../SCSS/blocks/_section-head';
+@import '../SCSS/blocks/_section-news';
+@import '../SCSS/blocks/_section-recomendation';
+@import '../SCSS/blocks/_section-offers';
+@import '../SCSS/blocks/_adaptive-blocks';
+@import '../SCSS/blocks/_responsiv';
 
 .wrapper {
+    width: 95%;
+    max-width: 1550px;
+    height: 100%;
     position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.maincontent {
-    height: 100%;
-    transition: transform 1s;
-    will-change: transition;
+    margin: 0 auto;
 }
 
 .container {
     width: 95%;
-    max-width: 940px;
+    max-width: 1410px;
     height: 100%;
     position: relative;
     margin: 0 auto;
@@ -77,8 +86,7 @@ body {
 
 .section {
     width: 100%;
-    height: 100vh;
-    // min-height: 650px;
+    padding-bottom: 170px;
 }
 
 .flex-position {
@@ -86,17 +94,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.prices {
-    font-family: "Play-Regular";
-    text-transform: uppercase;
-    font-size: 2.25rem;
-    line-height: 3.75rem;
-}
-
-.open-menu {
-    overflow: hidden;
 }
 
 a {

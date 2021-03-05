@@ -47,11 +47,6 @@ task('copy:libs', function() {
     .pipe(dest(`${DIST_PATH}/libs`));
 });
 
-task('copy:spriteSvg', function() {
-  return src(`${SRC_PATH}/sprite.svg`)
-    .pipe(dest(`${DIST_PATH}`));
-});
-
 task('copy:scripts', function() {
   return src(`${SRC_PATH}/scripts/api/*.js`)
     .pipe(dest(`${DIST_PATH}/scripts/`));
@@ -106,7 +101,7 @@ task('watch', () => {
 task('default',
  series(
    'clean',
-   parallel('copy:html', 'copy:image', 'copy:libs', 'copy:spriteSvg', 'copy:fonts', 'styles', 'scripts', 'copy:scripts'),
+   parallel('copy:html', 'copy:image', 'copy:libs', 'copy:fonts', 'styles', 'scripts', 'copy:scripts'),
    parallel('watch', 'server')
  )
 );
@@ -114,5 +109,5 @@ task('default',
 task('build',
  series(
    'clean',
-   parallel('copy:html', 'copy:image', 'copy:libs', 'copy:spriteSvg', 'copy:fonts', 'styles', 'scripts', 'copy:scripts'))
+   parallel('copy:html', 'copy:image', 'copy:libs', 'copy:fonts', 'styles', 'scripts', 'copy:scripts'))
 );

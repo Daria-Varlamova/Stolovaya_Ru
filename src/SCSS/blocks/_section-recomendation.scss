@@ -1,0 +1,106 @@
+.recomendation__content {
+
+    .recomendation__title-container {
+        width: 50%;
+        margin: 0 auto 65px;
+        text-align: center;
+
+
+        .recomendation__title {
+            color: #232323;
+            font-size: 40px;
+            font-weight: 400;
+            margin-bottom: 15px;
+
+            .recomendation__text {
+                font-size: 16px;
+                font-weight: 400;
+                color: #787878;
+
+            }
+        }
+    }
+
+    .card__right {
+        margin-left: 13px;
+        .recomendation__card {
+            margin-bottom: 10px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .recomendation__block {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .recomendation__card {
+            display: flex;
+            width: 100%;
+
+            .card__text-content {
+                display: flex;
+                flex-direction: column;
+
+                .card__name {
+                    color: #121212;
+                    padding-top: 20px;
+                    font-size: 20px;
+                    font-weight: 200;
+                    text-transform: uppercase;
+                }
+
+                .card__title {
+                    color: #121212;
+                    font-size: 30px;
+                    font-weight: 400;
+                    padding: 15px 0 25px 0;
+                }
+
+                .card__text {
+                    color: #777777;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+
+                .text--color__white {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+    .card-left--width {
+        max-width: 285px;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .card-right--flex {
+        justify-content: center;
+        padding-left: 40px;
+    }
+
+    .card--white {
+        background-color: #ffffff;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .card--black {
+        background-color: #232323;
+    }
+
+    .flex-column {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+}

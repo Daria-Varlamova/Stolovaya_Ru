@@ -1,0 +1,45 @@
+.adaptive__burger-menu {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #faad3d;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 15;
+
+    span {
+        width: 25px;
+        height: 2px;
+        background-color: white;
+        margin-bottom: 5px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+}
+
+.adaptive__icons {
+    display: none;
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.adaptive__block--container {
+    display: none;
+    border-top: 1px solid grey;
+    .adaptive__block {
+        width: 100%;
+        padding: 15px 0;
+        
+        display: flex;
+        font-size: 18px;
+        justify-content: space-between;
+    }
+}

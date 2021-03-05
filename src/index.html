@@ -3,1024 +3,992 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beats</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-    <link rel="stylesheet" href="./libs/fancybox/jquery.fancybox.css">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no">
+    <title>Столовая.РУ</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./main.min.css">
 </head>
 
-<body>
-    <div class="wrapper">
-        <div class="header-conteiner">
-            <header class="header">
-                <a href="#" class="logo">
-                    <img src="./images/logo.png" alt="Beats">
-                </a>
-                <nav class="menu-nav menu-nav__active">
-                    <ul class="menu-nav__list">
-                        <li class="menu-nav__item">
-                            <a data-scroll-to="1" href="#" class="menu-nav__link">О нас</a>
+<body class="">
+    <main>
+        <section class="group-menu group-menu--bg-green">
+            <div class="wrapper">
+                <nav>
+                    <ul>
+                        <li>
+                            <a class="group-menu-link" href="#">
+                                <span>Компания</span>
+                            </a>
                         </li>
-
-                        <li class="menu-nav__item">
-                            <a data-scroll-to="2" href="#" class="menu-nav__link">Наушники</a>
+                        <li>
+                            <a class="group-menu-link" href="#">
+                                <span>Портфолио</span>
+                            </a>
                         </li>
-
-                        <li class="menu-nav__item">
-                            <a data-scroll-to="3" href="#" class="menu-nav__link">Команда</a>
+                        <li><a class="group-menu-link" href="#">
+                                <span> Проектирование</span>
+                            </a>
                         </li>
-
-                        <li class="menu-nav__item">
-                            <a data-scroll-to="4" href="#" class="menu-nav__link">Цвета</a>
+                    </ul>
+                    <ul>
+                        <li> <a class="group-menu-link" href="#">
+                                <span>Проектирование</span>
+                            </a>
                         </li>
-
-                        <li class="menu-nav__item">
-                            <a data-scroll-to="5" href="#" class="menu-nav__link">Отзывы</a>
+                        <li>
+                            <a class="group-menu-link" href="#">
+                                <span>Застройщикам</span>
+                            </a>
                         </li>
-
-                        <li class="menu-nav__item">
-                            <a data-scroll-to="6" href="#" class="menu-nav__link">Как мы работаем</a>
+                        <li>
+                            <a class="group-menu-link" href="#">
+                                <span> Гос.заказчикам</span>
+                            </a>
                         </li>
-
-                        <li class="menu-nav__item">
-                            <a data-scroll-to="7" href="#" class="menu-nav__link">Контакты</a>
+                        <li>
+                            <a class="group-menu-link" href="#">
+                                <span> Таблет-питание</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a class="group-menu-link" href="#">
+                                <span>Сервис</span>
+                            </a>
+                        </li>
+                        <li> <a class="group-menu-link" href="#">
+                                <span>Контакты</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="group-menu__contacts-link">
+                                <img src="./images/email_(1).png" alt="email">
+                                <span>info@stolovay.ru </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="group-menu__contacts-link">
+                                <img src="./images/tell.png" alt="tell">
+                                <span>8 495 790-72-05</span>
+                            </a>
                         </li>
                     </ul>
                 </nav>
-                <div class="phone">
-                    <svg class="phone__icon">
-                        <use href="./sprite.svg#phone">
-                        </use>
-                    </svg>
-                    <a href="tell:+78009039090" class="phone__link">8 800 903 90 90</a>
-                </div>
+            </div>
+        </section>
 
-                <div class="burger-menu">
-                    <div class="burger-menu__line"></div>
-                    <div class="burger-menu__line"></div>
-                    <div class="burger-menu__line"></div>
-                </div>
-            </header>
-        </div>
-        <div class="maincontent">
-            <section data-sidemenu-theme="#E01F3D" data-section-index="0" class="section section-head">
-                <div class="container">
-                    <div class="section-head__content">
-                        <div class="section-head__content-text">
-                            <div class="section-head__container-title">
-                                <h1 class="section-head__title">
-                                    Беспроводные наушники Beats Solo 3
-                                </h1>
-                                <span class="section-head__subtitle">
-                                    Встречайте новую версию наушников
-                                    из линейки Powerbeats.
-                                </span>
-                                <button data-scroll-to="7" class="btn">
-                                    ЗАКАЗАТЬ
-                                </button>
+        <header class="header">
+            <div class="header-item__bg-grey">
+                <div class="wrapper">
+                    <section class="section-search">
+                        <div class="adaptive__burger-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <a href="#" class="section-search__logo">
+                            <img src="./images/logo.png" alt="logo">
+                            <span>Столовая.РУ</span>
+                        </a>
+
+                        <div class="adaptive__icons">
+                            <img src="./images/adaptiv1.png" alt="img">
+                            <img src="./images/adaptiv2.png" alt="img">
+                            <img src="./images/adaptiv3.png" alt="img">
+                        </div>
+
+                        <form class="search-form" action="">
+                            <div class="search-form__categories">
+                                <span>Все</span>
+                                <img src="./images/^.png" alt=">">
                             </div>
+                            <input class="search-form__input" type="text">
+                            <button class="search-form__btn">
+                                <img src="./images/serch.png" alt="">
+                            </button>
+                        </form>
 
-                            <div class="section-head__advantage advantage">
-                                <ul class="advantage__list">
-                                    <li class="advantage__item">
-                                        <div class="advantage__icon">
-                                            <svg class="advantage__icon">
-                                                <use href="./sprite.svg#main-1">
-                                                </use>
-                                            </svg>
+                        <div class="section-search__portal">
+                            <div class="portal__img">
+                                <img src="./images/portalpostavschikov.png" alt="">
+                            </div>
+                            <a class="portal__text" href="#">
+                                <span>
+                                    Мы на портале
+                                    поставщиков
+                                </span>
+                            </a>
+                        </div>
+
+                        <div class="section-search__basket">
+                            <div class="basket__left">
+                                <span class="basket-number">12</span>
+                                <img src="./images/basket.png" alt="">
+                            </div>
+                            <div class="basket__right">
+                                <div class="basket-sum">
+                                    <span>Сумма</span>
+                                </div>
+                                <div class="basket-num">
+                                    <span>150 000 руб.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="adaptive__block--container">
+                <div class="wrapper">
+                    <div class="adaptive__block">
+                        <div>Оборудование </div>
+                        <div>></div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-item__bg-white">
+                <div class="wrapper">
+                    <div class="header__categories">
+                        <ul class="categories__container">
+                            <li class="categories__item">
+                                <a class="categories__link" href="#">
+                                    <img src="./images/1.png" alt="Тепловое">
+                                    <span>Тепловое</span>
+                                </a>
+                            </li>
+                            <li class="categories__item">
+                                <a class="categories__link" href="#">
+                                    <img src="./images/2.png" alt="Тепловое">
+                                    <span>Холодильное </span>
+                                </a>
+                            </li>
+                            <li class="categories__item">
+                                <a class="categories__link" href="#">
+                                    <img src="./images/3.png" alt="Тепловое">
+                                    <span>Электромеханическое </span>
+                                </a>
+                            </li>
+                            <li class="categories__item">
+                                <a class="categories__link" href="#">
+                                    <img src="./images/4.png" alt="Тепловое">
+                                    <span>Посудомоечное </span>
+                                </a>
+                            </li>
+                            <li class="categories__item">
+                                <a class="categories__link" href="#">
+                                    <img src="./images/5.png" alt="Тепловое">
+                                    <span>Хлебопекарное </span>
+                                </a>
+                            </li>
+                            <li class="categories__item">
+                                <a class="categories__link" href="#">
+                                    <img src="./images/6.png" alt="Тепловое">
+                                    <span>Линии раздачи </span>
+                                </a>
+                            </li>
+                            <li class="categories__item">
+                                <a class="categories__link" href="#">
+                                    <img src="./images/7.png" alt="Тепловое">
+                                    <span>Нейтральное </span>
+                                </a>
+                            </li>
+                            <li class="categories__item">
+                                <a class="categories__link" href="#">
+                                    <img src="./images/8.png" alt="Тепловое">
+                                    <span>Для фаст фуда </span>
+                                </a>
+                            </li>
+                            <li class="categories__item">
+                                <a class="categories__link" href="#">
+                                    <img src="./images/9.png" alt="Тепловое">
+                                    <span>Для залов </span>
+                                </a>
+                            </li>
+                            <li class="categories__item">
+                                <a class="categories__link" href="#">
+                                    <img src="./images/10.png" alt="Тепловое">
+                                    <span>Вспомогательное</span>
+                                </a>
+                            </li>
+                            <li class="categories__item">
+                                <a class="categories__link" href="#">
+                                    <img src="./images/11.png" alt="Тепловое">
+                                    <span> Для магазинов</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="section section-head">
+            <div class="wrapper">
+                <div class="section-head__content">
+                    <div class="section-head__content--top">
+                        <aside class="sidebar-left">
+                            <div class="sidebar-left__title">
+                                <span>
+                                    Целевые предложения
+                                </span>
+                            </div>
+                            <ul class="sidebar-left__list">
+                                <li class="sidebar-left__item">
+                                    <a class="sidebar-left__link" href="#">
+                                        Кафе, барам, ресторанам
+                                    </a>
+                                </li>
+                                <li class="sidebar-left__item">
+                                    <a class="sidebar-left__link" href="#">
+                                        Дестким садам и школам
+                                    </a>
+                                </li>
+                                <li class="sidebar-left__item">
+                                    <a class="sidebar-left__link" href="#">
+                                        Таблет-питание
+                                    </a>
+                                </li>
+                                <li class="sidebar-left__item">
+                                    <a class="sidebar-left__link" href="#">
+                                        Для столовых
+                                    </a>
+                                </li>
+                                <li class="sidebar-left__item">
+                                    <a class="sidebar-left__link" href="#">
+                                        Для пищеблоков
+                                    </a>
+                                </li>
+                                <li class="sidebar-left__item">
+                                    <a class="sidebar-left__link" href="#">
+                                        Государственным заказкам
+                                    </a>
+                                </li>
+                                <li class="sidebar-left__item">
+                                    <a class="sidebar-left__link" href="#">
+                                        Для магазинов
+                                    </a>
+                                </li>
+                                <li class="sidebar-left__item">
+                                    <a class="sidebar-left__link" href="#">
+                                        Для войсковых частей
+                                    </a>
+                                </li>
+                                <li class="sidebar-left__item">
+                                    <a class="sidebar-left__link" href="#">
+                                        Все предложения
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+                        <div class="container-slider">
+                            <div class="swiper-container">
+                                <!-- Additional required wrapper -->
+                                <div class="swiper-wrapper">
+                                    <!-- Slides -->
+                                    <div class="swiper-slide">
+                                        <div class="swiper-slide__content">
+                                            <div class="swiper-slide__left">
+                                                <div class="swiper-slide__suptitle">
+                                                    <span>Портфолио</span>
+                                                </div>
+                                                <div class="swiper-slide__text">
+                                                    <div class="swiper-slide__title">
+                                                        <span>
+                                                            НИИ скорой помощи
+                                                            им. Н.В. Склифосовского
+                                                        </span>
+                                                    </div>
+                                                    <div class="swiper-slide__subtitle">
+                                                        <span>Оборудование для пищеблоков</span>
+                                                    </div>
+                                                </div>
+
+                                                <button class="swiper-slide__btn">
+                                                    Подробнее
+                                                </button>
+                                            </div>
+                                            <div class="swiper-slide__right">
+                                                <img src="./images/slider_img.png" alt="">
+                                            </div>
                                         </div>
-                                        <div class="advantage__subtitle">
-                                            Безупречный звук
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper-slide__content">
+                                            <div class="swiper-slide__left">
+                                                <div class="swiper-slide__suptitle">
+                                                    <span>Портфолио</span>
+                                                </div>
+                                                <div class="swiper-slide__text">
+                                                    <div class="swiper-slide__title">
+                                                        <span>
+                                                            НИИ скорой помощи
+                                                            им. Н.В. Склифосовского
+                                                        </span>
+                                                    </div>
+                                                    <div class="swiper-slide__subtitle">
+                                                        <span>Оборудование для пищеблоков</span>
+                                                    </div>
+                                                </div>
+
+                                                <button class="swiper-slide__btn">
+                                                    Подробнее
+                                                </button>
+                                            </div>
+                                            <div class="swiper-slide__right">
+                                                <img src="./images/slider_img.png" alt="">
+                                            </div>
                                         </div>
-                                    </li>
-                                    <li class="advantage__item">
-                                        <div class="advantage__icon">
-                                            <svg class="advantage__icon">
-                                                <use href="./sprite.svg#main-2">
-                                                </use>
-                                            </svg>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="swiper-slide__content">
+                                            <div class="swiper-slide__left">
+                                                <div class="swiper-slide__suptitle">
+                                                    <span>Портфолио</span>
+                                                </div>
+                                                <div class="swiper-slide__text">
+                                                    <div class="swiper-slide__title">
+                                                        <span>
+                                                            НИИ скорой помощи
+                                                            им. Н.В. Склифосовского
+                                                        </span>
+                                                    </div>
+                                                    <div class="swiper-slide__subtitle">
+                                                        <span>Оборудование для пищеблоков</span>
+                                                    </div>
+                                                </div>
+
+                                                <button class="swiper-slide__btn">
+                                                    Подробнее
+                                                </button>
+                                            </div>
+                                            <div class="swiper-slide__right">
+                                                <img src="./images/slider_img.png" alt="">
+                                            </div>
                                         </div>
-                                        <div class="advantage__subtitle">
-                                            До 40 часов работы
+                                    </div>
+                                </div>
+                                <!-- If we need pagination -->
+                                <div class="swiper-pagination"></div>
+                                <!-- If we need scrollbar -->
+                                <div class="swiper-scrollbar"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                        </div>
+                        <aside class="sidebar-right">
+                            <div class="sidebar-right__content">
+                                <div class="content__image">
+                                    <img src="./images/present.png" alt="">
+                                </div>
+                                <div class="content__text">
+                                    Самые низкие цены
+                                </div>
+                                <div class="content__title">
+                                    Распродажа
+                                </div>
+                                <a class="content__link" href="#">
+                                    Каталог распродаж >
+                                </a>
+                            </div>
+                        </aside>
+                    </div>
+                    <div class="section-head__content--bottom">
+                        <ul class="brends">
+                            <li class="brends__item">
+                                <a class="brends__link" href="#">
+                                    <img src="./images/logo1.png" alt="logo1">
+                                </a>
+                            </li>
+                            <li class="brends__item">
+                                <a class="brends__link" href="#">
+                                    <img src="./images/logo2.png" alt="logo1">
+                                </a>
+                            </li>
+                            <li class="brends__item">
+                                <a class="brends__link" href="#">
+                                    <img src="./images/logo3.png" alt="logo1">
+                                </a>
+                            </li>
+                            <li class="brends__item">
+                                <a class="brends__link" href="#">
+                                    <img src="./images/logo4.png" alt="logo1">
+                                </a>
+                            </li>
+                            <li class="brends__item">
+                                <a class="brends__link" href="#">
+                                    <img src="./images/logo5.png" alt="logo1">
+                                </a>
+                            </li>
+                            <li class="brends__item">
+                                <a class="brends__link" href="#">
+                                    Все бренды
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-news">
+            <div class="container">
+                <div class="section-news__content">
+                    <div class="section-news__title">
+                        <span>Новости производителей</span>
+                    </div>
+
+                    <div class="section-news__block">
+                        <div class="section-news__news-left">
+                            <div class="section-news__img">
+                                <img src="./images/big_img_news.png" alt="">
+                            </div>
+                            <div class="section-news__text-content">
+                                <div class="section-news__top-subtitle">
+                                    <div class="section-news__abat">
+                                        <span>Abat</span>
+                                    </div>
+                                    <div class="section-news__data">
+                                        <span>22.06.17</span>
+                                    </div>
+                                </div>
+                                <a href="#" class="text-content__title">
+                                    <span>
+                                        Новый разборный ротационный пекарский
+                                        шкаф РПШ-18-8-6МР
+                                    </span>
+                                </a>
+                                <div class="text-content__text">
+                                    <p>
+                                        Новый разборный ротационный пекарский шкаф РПШ-18-8-6МР: в комплекте
+                                        тележка-шпилька
+                                        ТШГ-18 на 18 уровней 600х800 мм вместимость тележки-шпильки - 135 хлебных форм
+                                        №7
+                                        инжекционный тип парообразования
+                                        разборная конструкция увеличенное стекло двери.
+                                        Память на 110 программ (до 4-ех этапов в каждой программе)
+                                        USB-порт. Таймер до 10 ч
+                                        Регулировка влажности от 0 до 100%. 5 скоро
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="section-news__news-right">
+                            <div class="news-right__block">
+                                <div class="section-news__img">
+                                    <img src="./images/small_news1.png" alt="">
+                                </div>
+                                <div class="section-news__text-content">
+                                    <div class="section-news__top-subtitle">
+                                        <div class="section-news__abat">
+                                            <span>Abat</span>
                                         </div>
-                                    </li>
-                                    <li class="advantage__item">
-                                        <div class="advantage__icon">
-                                            <svg class="advantage__icon">
-                                                <use href="./sprite.svg#main-3">
-                                                </use>
-                                            </svg>
+                                        <div class="section-news__data">
+                                            <span>22.06.17</span>
                                         </div>
-                                        <div class="advantage__subtitle">
-                                            Технология Fast Fuel
+                                    </div>
+                                    <a href="#" class="text-content__title">
+                                        <span>
+                                            Повышение энергоэффективности туннельных посудомоечных машин МПТ торговой
+                                            марки Abat
+                                        </span>
+                                    </a>
+                                    <div class="text-content__text">
+                                        <p>
+                                            С целью снижения нагрузки на электрическую сеть и для повышения
+                                            энергоэффективности изделий с 1 июня 2017 года был изменен алгоритм работы
+                                            туннельных посудомоечных машин МПТ торговой марки Abat всех моделей...
+                                            контроллеры 38ПКА-01 всех туннельных посудомоечных машин МПТ теперь
+                                            прошиваются новым программным обеспечением.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-right__block">
+                                <div class="section-news__img">
+                                    <img src="./images/small_news2.png" alt="">
+                                </div>
+                                <div class="section-news__text-content">
+                                    <div class="section-news__top-subtitle">
+                                        <div class="section-news__abat">
+                                            <span>Abat</span>
                                         </div>
-                                    </li>
+                                        <div class="section-news__data">
+                                            <span>22.06.17</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="text-content__title">
+                                        <span>
+                                            Повышение энергоэффективности туннельных посудомоечных машин МПТ торговой
+                                            марки Abat
+                                        </span>
+                                    </a>
+                                    <div class="text-content__text">
+                                        <p>
+                                            Новый разборный ротационный пекарский шкаф РПШ-18-8-6МР: в комплекте
+                                            тележка-шпилька
+                                            ТШГ-18 на 18 уровней 600х800 мм вместимость тележки-шпильки - 135 хлебных
+                                            форм
+                                            №7
+                                            инжекционный тип парообразования
+                                            разборная конструкция увеличенное стекло двери.
+                                            Память на 110 программ (до 4-ех этапов в каждой программе)
+                                            USB-порт. Таймер до 10 ч
+                                            Регулировка влажности от 0 до 100%. 5 скоро
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="news-right__block">
+                                <div class="section-news__img">
+                                    <img src="./images/small_news3.png" alt="">
+                                </div>
+                                <div class="section-news__text-content">
+                                    <div class="section-news__top-subtitle">
+                                        <div class="section-news__abat">
+                                            <span>Abat</span>
+                                        </div>
+                                        <div class="section-news__data">
+                                            <span>22.06.17</span>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="text-content__title">
+                                        <span>
+                                            Повышение энергоэффективности туннельных посудомоечных машин МПТ торговой
+                                            марки Abat
+                                        </span>
+                                    </a>
+                                    <div class="text-content__text">
+                                        <p>
+                                            Новый разборный ротационный пекарский шкаф РПШ-18-8-6МР: в комплекте
+                                            тележка-шпилька
+                                            ТШГ-18 на 18 уровней 600х800 мм вместимость тележки-шпильки - 135 хлебных
+                                            форм
+                                            №7
+                                            инжекционный тип парообразования
+                                            разборная конструкция увеличенное стекло двери.
+                                            Память на 110 программ (до 4-ех этапов в каждой программе)
+                                            USB-порт. Таймер до 10 ч
+                                            Регулировка влажности от 0 до 100%. 5 скоро
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-news__button">
+                        <button class="btn">Все новости </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section__recomendation">
+            <div class="container">
+                <div class="recomendation__content">
+                    <div class="recomendation__title-container">
+                        <div class="recomendation__title">Рекомендуем</div>
+                        <p class="recomendation__text">
+                            В этих разделах вы можете получить подробную информацию о пищевом оборудовании
+                            для столовых, ресторанов и кафе ведущих производителей.
+                        </p>
+                    </div>
+
+                    <div class="recomendation__block ">
+                        <a href="#" class="recomendation__card card--white flex-column text-center">
+                            <div class="card__text-content card-left--width ">
+                                <div class="card__name">
+                                    <span>rational</span>
+                                </div>
+                                <div class="card__title">
+                                    <span>Пароконвектоматы</span>
+                                </div>
+                                <div class="card__text">
+                                    <span>Педантичность и преданность своему делу делает продукцию Rational
+                                        идеальной
+                                        для тех, кто ищет надежность и долговечность.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="card__img-wrap">
+                                <img src="./images/recomend1.png" alt="image">
+                            </div>
+                        </a>
+
+                        <div class="card__right">
+                            <a href="#" class="recomendation__card card--black flex-row">
+                                <div class="card__img-wrap">
+                                    <img src="./images/recomend2.png" alt="image">
+                                </div>
+                                <div class="card__text-content card-right--flex">
+                                    <div class="card__name text--color__white">
+                                        <span>Abat</span>
+                                    </div>
+                                    <div class="card__title text--color__white">
+                                        <span>
+                                            Тепловое
+                                            оборудование
+                                        </span>
+                                    </div>
+                                    <div class="card__text">
+                                        <p>Более 55 лет успешно работает на рынке торгово-технологического
+                                            оборудования, по праву занимая лидирующее положение в данном сегменте.
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="recomendation__card card--white flex-row">
+                                <div class="card__text-content card-right--flex">
+                                    <div class="card__name">
+                                        <span>hicold</span>
+                                    </div>
+                                    <div class="card__title">
+                                        <span>Холодильные столы</span>
+                                    </div>
+                                    <div class="card__text">
+                                        <p>Многофункциональность оборудования позволяет оптимизировать пространство на
+                                            кухне, сделать работу персонала максимально удобной и эффективной.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card__img-wrap">
+                                    <img src="./images/recomend3.png" alt="image">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-offers section">
+            <div class="container">
+                <div class="section-offers__content">
+                    <div class="section-offers__block-left">
+                        <div class="block-left__text-content">
+                            <div class="text-content__title fonts-bold">
+                                <span>
+                                    Комплексные решения оснащения столовых
+                                    и кафе
+                                </span>
+                            </div>
+                            <div class="text-content__description">
+                                <p>
+                                    Компания предлагает комплексное оснащение столовых, ресторанов, кафе и баров в
+                                    Москве. Наши услуги построены по принципу полного цикла обслуживания предприятий
+                                    общепита и бизнеса HoReCa.
+                                    Иными словами, мы предлагаем проектирование «под ключ» и постгарантийное
+                                    обслуживание. География работы компании охватывает всю страну. При этом в каждом
+                                    регионе мы готовы предложить демократичные цены на профессиональное технологическое
+                                    оборудование для столовой и оптимальные решения с точки зрения эффективности
+                                    бизнеса, приемлемым уровнем производительности в условиях ограниченного бюджета.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="block-left__text-content">
+                            <div class="text-content__title">
+                                <span>
+                                    Что мы предлагаем
+                                </span>
+                            </div>
+                            <div class="text-content__description">
+                                <p>
+                                    разработку технологического проекта кухни и производственной линии, дизайна
+                                    ресторанного интерьера;
+                                    составление меню согласно концепции и оснащения бара (кафе, столовой);
+                                    подбор посуды, текстиля под общий стиль; профессиональное оборудование для кафе,
+                                    бара и ресторана, большой выбор современных моделей; доставку в любой регион РФ;
+                                    монтажные и пуско-наладочные работы; автоматизацию производственного процесса, что
+                                    позволяет определённое оборудование для бара;
+                                </p>
+                            </div>
+                        </div>
+                        <div class="block-left__btn">
+                            <span class="line"></span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+
+                    <div class="section-offers__block-right">
+                        <a href="#" class="block-right__logo">
+                            <img src="./images/logo_big.png" alt="logo">
+                            <div class="logo__title">
+                                Столовая.РУ
+                            </div>
+                            <div class="logo__subtitle">
+                                создание оптимальных пищеблоков
+                            </div>
+                        </a>
+
+                        <div class="block-right__text-content">
+                            <div class="block-right__title">
+                                <span>
+                                    Группа компаний
+                                </span>
+                            </div>
+                            <div class="block-right___text">
+                                <span>
+                                    Показатели:
+                                </span>
+                                <ul class="block-right__list">
+                                    <li>На рынке: 5 лет</li>
+                                    <li>Объем контрактов: 4 млрд.р.</li>
+                                    <li>Количество контрактов: 620</li>
                                 </ul>
                             </div>
                         </div>
-                        <img class="section-head__content-img" class="" src="./images/beats-one.png" alt="">
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section data-sidemenu-theme="#E01F3D" data-section-index="1" class="section benefits-section">
-                <div class="container flex-position">
-                    <div class="headline-container">
-                        <h3 class="headline">
-                            почему beats solo 3?
-                        </h3>
-                        <div class="headline__subtitle">
-                            Процессор W1 работает невероятно эффективно и позволяет легко
-                            подключать наушники к различным устройствам Apple.
-                        </div>
-                    </div>
+        <footer class="footer">
+            <section class="section__footer-top">
+                <div class="container">
+                    <div class="footer-top__content">
 
-                    <ul class="benefits">
-                        <li class="benefits__item benefit">
-                            <div class="benefit__image">
-                                <div class="benefit__image-wrapper">
-                                    <svg class="benefit__icon">
-                                        <use href="./sprite.svg#feat-1">
-                                        </use>
-                                    </svg>
-                                </div>
+                        <div class="footer-top__block">
+                            <div class="footer-top__title-list">
+                                <span>
+                                    Информация
+                                </span>
                             </div>
-                            <div class="benefit__text">
-                                <h4 class="benefit-title">40 часов работы</h4>
-                                <p>
-                                    Наушники Beats Solo3 могут работать
-                                    до 40 часов без подзарядки, чтобы вы
-                                    могли пользоваться ими каждый день.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="benefits__item benefit">
-                            <div class="benefit__image">
-                                <div class="benefit__image-wrapper">
-                                    <svg class="benefit__icon">
-                                        <use href="./sprite.svg#feat-2">
-                                        </use>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="benefit__text">
-                                <h4 class="benefit-title">Фирменное звучание</h4>
-                                <p>
-                                    Фирменное звучание Beats в наушниках
-                                    с технологией Bluetooth класса
-                                    1 будет сопровождать вас повсюду —
-                                    куда бы вы ни отправились.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li class="benefits__item benefit">
-                            <div class="benefit__image">
-                                <div class="benefit__image-wrapper">
-                                    <svg class="benefit__icon">
-                                        <use href="./sprite.svg#feat-3">
-                                        </use>
-                                    </svg>
-                                </div>
-                            </div>
-                            <div class="benefit__text">
-                                <h4 class="benefit-title">Быстрая зарядка</h4>
-                                <p>
-                                    Благодаря технологии Fast Fuel
-                                    всего через 5 минут зарядки вы
-                                    сможете слушать музыку ещё 3 часа.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-            <section data-sidemenu-theme="#E01F3D" data-section-index="2" class="section section-shop">
-                <div class="container flex-position section-shop__container">
-                    <div class="slider__controls">
-                        <a class="slider__btn  slider__btn--prev" href="#">
-                            <svg class="slider__arrow">
-                                <use href="./sprite.svg#right+left">
-                                </use>
-                            </svg>
-                        </a>
-                        <a class="slider__btn slider__btn--next" href="#">
-                            <svg class="slider__arrow">
-                                <use href="./sprite.svg#right+left">
-                                </use>
-                            </svg>
-                        </a>
-                    </div>
-                    <div class="slider">
-                        <ul class="slider__list">
-                            <li class="slider__item">
-                                <div class="slider__left">
-                                    <img src="./images/beats-two.png" alt="">
-                                </div>
-                                <div class="slider__right">
-                                    <div class="specification">
-                                        <svg class="specification__icon">
-                                            <use href="./sprite.svg#gear">
-                                            </use>
-                                        </svg>
-                                        <div class="feature">
-                                            <ul class="feature__list">
-                                                <li class="feature__item">
-                                                    <svg class="feature__icon">
-                                                        <use href="./sprite.svg#feat1">
-                                                        </use>
-                                                    </svg>
-                                                    <div class="feature__name">Bluetooth</div>
-                                                    <div class="feature__amount">4.0</div>
-                                                </li>
-                                                <li class="feature__item">
-                                                    <svg class="feature__icon">
-                                                        <use href="./sprite.svg#feat2">
-                                                        </use>
-                                                    </svg>
-                                                    <div class="feature__name">Дальность </div>
-                                                    <div class="feature__amount">12 м</div>
-                                                </li>
-                                                <li class="feature__item">
-                                                    <svg class="feature__icon">
-                                                        <use href="./sprite.svg#feat3">
-                                                        </use>
-                                                    </svg>
-                                                    <div class="feature__name">Зарядка</div>
-                                                    <div class="feature__amount">3 ч</div>
-                                                </li>
-                                                <li class="feature__item">
-                                                    <svg class="feature__icon">
-                                                        <use href="./sprite.svg#feat4">
-                                                        </use>
-                                                    </svg>
-                                                    <div class="feature__name">Вес</div>
-                                                    <div class="feature__amount">215гр</div>
-                                                </li>
-                                                <li class="feature__item">
-                                                    <svg class="feature__icon">
-                                                        <use href="./sprite.svg#feat5">
-                                                        </use>
-                                                    </svg>
-                                                    <div class="feature__name">Гарантия</div>
-                                                    <div class="feature__amount">1 год</div>
-                                                </li>
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="slider_title">
-                                        <h4>beats solo 3. цвет «атласное серебро»</h4>
-                                    </div>
-                                    <div class="slider__description">
-                                        <p>
-                                            Беспроводные наушники Beats Solo3
-                                            готовы к работе в любой момент. Включите
-                                            их и поднесите к своему iPhone — они
-                                            мгновенно подключатся к нему.
-                                        </p>
-                                    </div>
-                                    <div class="slider__row">
-                                        <div class="options">
-                                            <div class="options__item">
-                                                <span>Зарядка</span>
-                                            </div>
-                                            <div class="options__item options__item--color-black">
-                                                <span>2 часа</span>
-                                            </div>
-                                        </div>
-                                        <div class="options">
-                                            <div class="options__item">
-                                                <span>Вес</span>
-                                            </div>
-                                            <div class="options__item options__item--color-black">
-                                                <span>215 грамм</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slider__row">
-                                        <div class="prices">
-                                            <span>
-                                                14 990 ₽
-                                            </span>
-                                        </div>
-                                        <button data-scroll-to="7" class="btn">ЗАКАЗАТЬ</button>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="slider__item">
-                                <div class="slider__left">
-                                    <img src="./images/beats-three.png" alt="">
-                                </div>
-                                <div class="slider__right">
-                                    <div class="specification">
-                                        <svg class="specification__icon">
-                                            <use href="./sprite.svg#gear">
-                                            </use>
-                                        </svg>
-                                        <div class="feature">
-                                            <ul class="feature__list">
-                                                <li class="feature__item">
-                                                    <svg class="feature__icon">
-                                                        <use href="./sprite.svg#feat1">
-                                                        </use>
-                                                    </svg>
-                                                    <div class="feature__name">Bluetooth</div>
-                                                    <div class="feature__amount">4.0</div>
-                                                </li>
-                                                <li class="feature__item">
-                                                    <svg class="feature__icon">
-                                                        <use href="./sprite.svg#feat2">
-                                                        </use>
-                                                    </svg>
-                                                    <div class="feature__name">Дальность </div>
-                                                    <div class="feature__amount">12 м</div>
-                                                </li>
-                                                <li class="feature__item">
-                                                    <svg class="feature__icon">
-                                                        <use href="./sprite.svg#feat3">
-                                                        </use>
-                                                    </svg>
-                                                    <div class="feature__name">Зарядка</div>
-                                                    <div class="feature__amount">3 ч</div>
-                                                </li>
-                                                <li class="feature__item">
-                                                    <svg class="feature__icon">
-                                                        <use href="./sprite.svg#feat4">
-                                                        </use>
-                                                    </svg>
-                                                    <div class="feature__name">Вес</div>
-                                                    <div class="feature__amount">215гр</div>
-                                                </li>
-                                                <li class="feature__item">
-                                                    <svg class="feature__icon">
-                                                        <use href="./sprite.svg#feat5">
-                                                        </use>
-                                                    </svg>
-                                                    <div class="feature__name">Гарантия</div>
-                                                    <div class="feature__amount">1 год</div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="slider_title">
-                                        <h4>beats solo pro. цвет «красный цитрус»</h4>
-                                    </div>
-                                    <div class="slider__description">
-                                        <p>
-                                            Беспроводные наушники Beats Solo3
-                                            готовы к работе в любой момент. Включите
-                                            их и поднесите к своему iPhone — они
-                                            мгновенно подключатся к нему.
-                                        </p>
-                                    </div>
-                                    <div class="slider__row">
-                                        <div class="options">
-                                            <div class="options__item">
-                                                <span>Зарядка</span>
-                                            </div>
-                                            <div class="options__item options__item--color-black">
-                                                <span>2 часа</span>
-                                            </div>
-                                        </div>
-                                        <div class="options">
-                                            <div class="options__item">
-                                                <span>Вес</span>
-                                            </div>
-                                            <div class="options__item options__item--color-black">
-                                                <span>215 грамм</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="slider__row">
-                                        <div class="prices">
-                                            <span>
-                                                14 990 ₽
-                                            </span>
-                                        </div>
-                                        <button data-scroll-to="7" class="btn">ЗАКАЗАТЬ</button>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-
-            <section data-sidemenu-theme="#E01F3D" data-section-index="3" class="section section-team">
-                <div class="container flex-position">
-                    <h3 class="headline section-team__title">
-                        команда
-                    </h3>
-
-                    <ul class="team team--version--dekstop">
-                        <li class="team__item">
-                            <div class="team__photo">
-                                <img src="./images/team1.jpg" alt="photo">
-                            </div>
-                            <button type="button" class="team__title">
-                                Борис Федорович
-                                <svg class="team-accordion__icon">
-                                    <use href="./sprite.svg#icon_team">
-                                    </use>
-                                </svg>
-                            </button>
-
-                            <div class="team__details">
-                                <div class="team__details-block">
-                                    <div class="team__position">
-                                        Главный технолог
-                                    </div>
-                                    <div class="team__desc">
-                                        Отвечает за вкусовые качества
-                                        и калорийность.
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="team__item">
-                            <div class="team__photo">
-                                <img src="./images/team2.jpg" alt="photo">
-                            </div>
-                            <button type="button" class="team__title">
-                                Алла Иванова
-                                <svg class="team-accordion__icon">
-                                    <use href="./sprite.svg#icon_team">
-                                    </use>
-                                </svg>
-                            </button>
-
-                            <div class="team__details">
-                                <div class="team__details-block">
-                                    <div class="team__position">
-                                        Специалист по упаковке
-                                    </div>
-                                    <div class="team__desc">
-                                        Автор запоминающегося стиля
-                                        наших батончиков.
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="team__item">
-                            <div class="team__photo">
-                                <img src="./images/team3.jpg" alt="photo">
-                            </div>
-                            <button type="button" class="team__title">
-                                Кирилл Матросов
-                                <svg class="team-accordion__icon">
-                                    <use href="./sprite.svg#icon_team">
-                                    </use>
-                                </svg>
-                            </button>
-
-                            <div class="team__details">
-                                <div class="team__details-block">
-                                    <div class="team__position">
-                                        Оператор
-                                    </div>
-                                    <div class="team__desc">
-                                        Разработал дизан
-                                        наушников beats solo 3.
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="team__item">
-                            <div class="team__photo">
-                                <img src="./images/team4.jpg" alt="photo">
-                            </div>
-                            <button type="button" class="team__title">
-                                Мила Рыжкова
-                                <svg class="team-accordion__icon">
-                                    <use href="./sprite.svg#icon_team">
-                                    </use>
-                                </svg>
-                            </button>
-
-                            <div class="team__details">
-                                <div class="team__details-block">
-                                    <div class="team__position">
-                                        PR, маркетинг
-                                    </div>
-                                    <div class="team__desc">
-                                        По всем вопросам сотрудничества
-                                        и рекламы писать только Миле.
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-
-                    <!-- Mobile -->
-                    <ul class="team team--version--mobile">
-                        <li class="team__item">
-                            <button type="button" class="team__title">
-                                Борис Федорович
-                                <svg class="team-accordion__icon">
-                                    <use href="./sprite.svg#icon_team">
-                                    </use>
-                                </svg>
-                            </button>
-
-                            <div class="team__details">
-                                <div class="team__details-block">
-                                    <div class="team__photo">
-                                        <img src="./images/team1.jpg" alt="photo">
-                                    </div>
-                                    <div class="team__position">
-                                        Главный технолог
-                                    </div>
-                                    <div class="team__desc">
-                                        Отвечает за вкусовые качества
-                                        и калорийность.
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="team__item">
-                            <button type="button" class="team__title">
-                                Борис Федорович
-                                <svg class="team-accordion__icon">
-                                    <use href="./sprite.svg#icon_team">
-                                    </use>
-                                </svg>
-                            </button>
-
-                            <div class="team__details">
-                                <div class="team__details-block">
-                                    <div class="team__photo">
-                                        <img src="./images/team2.jpg" alt="photo">
-                                    </div>
-                                    <div class="team__position">
-                                        Главный технолог
-                                    </div>
-                                    <div class="team__desc">
-                                        Отвечает за вкусовые качества
-                                        и калорийность.
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="team__item">
-                            <button type="button" class="team__title">
-                                Борис Федорович
-                                <svg class="team-accordion__icon">
-                                    <use href="./sprite.svg#icon_team">
-                                    </use>
-                                </svg>
-                            </button>
-
-                            <div class="team__details">
-                                <div class="team__details-block">
-                                    <div class="team__photo">
-                                        <img src="./images/team3.jpg" alt="photo">
-                                    </div>
-                                    <div class="team__position">
-                                        Главный технолог
-                                    </div>
-                                    <div class="team__desc">
-                                        Отвечает за вкусовые качества
-                                        и калорийность.
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="team__item">
-                            <button type="button" class="team__title">
-                                Борис Федорович
-                                <svg class="team-accordion__icon">
-                                    <use href="./sprite.svg#icon_team">
-                                    </use>
-                                </svg>
-                            </button>
-
-                            <div class="team__details">
-                                <div class="team__details-block">
-                                    <div class="team__photo">
-                                        <img src="./images/team4.jpg" alt="photo">
-                                    </div>
-                                    <div class="team__position">
-                                        Главный технолог
-                                    </div>
-                                    <div class="team__desc">
-                                        Отвечает за вкусовые качества
-                                        и калорийность.
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-            <section data-sidemenu-theme="black" data-section-index="4" class="section section-colors"
-                style="background-image: url(./images/bg-colors.png);">
-                <div class="headline section-colors__title">
-                    цвета
-                </div>
-
-                <ul class="colors-acco">
-                    <li class="colors-acco__item active">
-                        <a href="#" class="colors-acco__trigger bg-grey">
-                            <span class="colors-acco__trigger-text">«Атласное серебро»</span>
-                        </a>
-                        <div class="colors-acco__content">
-                            <div class="colors-acco__container">
-                                <button class="colors-acco__close">
-                                    <svg class="colors-acco__close-icon">
-                                        <use href="./sprite.svg#close">
-                                        </use>
-                                    </svg>
-                                </button>
-
-                                <p class="colors-acco__text">
-                                    Наушники Beats Solo3 могут работать до 40 часов без подзарядки, чтобы вы могли
-                                    пользоваться ими каждый день. 5‑минутной зарядки Fast Fuel хватит ещё на 3 часа
-                                    воспроизведения. Фирменное звучание Beats в наушниках с технологией Bluetooth класса
-                                    1
-                                    будет сопровождать вас повсюду — куда бы вы ни отправились.
-                                    Расположение чашек с мягкими амбушюрами можно регулировать — вы сможете носить их
-                                    целый
-                                    день.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="colors-acco__item">
-                        <a href="#" class="colors-acco__trigger bg-black">
-                            <span class="colors-acco__trigger-text">«Чёрный матовый»</span>
-                        </a>
-                        <div class="colors-acco__content">
-                            <div class="colors-acco__container">
-                                <button class="colors-acco__close">
-                                    <svg class="colors-acco__close-icon">
-                                        <use href="./sprite.svg#close">
-                                        </use>
-                                    </svg>
-                                </button>
-
-                                <p class="colors-acco__text">
-                                    Наушники Beats Solo3 могут работать до 40 часов без подзарядки, чтобы вы могли
-                                    пользоваться ими каждый день. 5‑минутной зарядки Fast Fuel хватит ещё на 3 часа
-                                    воспроизведения. Фирменное звучание Beats в наушниках с технологией Bluetooth класса
-                                    1
-                                    будет сопровождать вас повсюду — куда бы вы ни отправились.
-                                    Расположение чашек с мягкими амбушюрами можно регулировать — вы сможете носить их
-                                    целый
-                                    день.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="colors-acco__item">
-                        <a href="#" class="colors-acco__trigger bg-red">
-                            <span class="colors-acco__trigger-text">«Красный цитрус»</span>
-                        </a>
-                        <div class="colors-acco__content">
-                            <div class="colors-acco__container">
-                                <button class="colors-acco__close">
-                                    <svg class="colors-acco__close-icon">
-                                        <use href="./sprite.svg#close">
-                                        </use>
-                                    </svg>
-                                </button>
-
-                                <p class="colors-acco__text">
-                                    Наушники Beats Solo3 могут работать до 40 часов без подзарядки, чтобы вы могли
-                                    пользоваться ими каждый день. 5‑минутной зарядки Fast Fuel хватит ещё на 3 часа
-                                    воспроизведения. Фирменное звучание Beats в наушниках с технологией Bluetooth класса
-                                    1
-                                    будет сопровождать вас повсюду — куда бы вы ни отправились.
-                                    Расположение чашек с мягкими амбушюрами можно регулировать — вы сможете носить их
-                                    целый
-                                    день.
-                                </p>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-
-            <section data-sidemenu-theme="#E01F3D" data-section-index="5" class="section section-reviwes">
-                <div class="container flex-position">
-                    <div class="headline-container">
-                        <h3 class="headline">
-                            отзывы
-                        </h3>
-                    </div>
-
-                    <div class="reviews">
-                        <div class="reviews__display">
-                            <ul class="reviews__list">
-                                <li class="reviews__item active" data-linked-with="one">
-                                    <div class="reviews__display-inner">
-                                        <div class="reviews__avatar">
-                                            <img class="reviews__avatar-img" src="./images/rewives_avatar1.png" alt="">
-                                        </div>
-                                        <article class="reviews__content">
-                                            <h3 class="reviews__title">
-                                                Отличный звук
-                                            </h3>
-                                            <div class="reviews__text">
-                                                <p>
-                                                    Я ем малыми порциями, но часто. Это повышает мою продуктивность в
-                                                    разы.
-                                                    В
-                                                    течение дня сижу за компьютером и часто отходить в кафе или на кухню
-                                                    просто
-                                                    не могу себе позволить. А батончик – он всегда под рукой. Это
-                                                    приятно и
-                                                    удобно.
-                                                </p>
-                                            </div>
-                                            <div class="reviews__autor">Билли Айлиш</div>
-                                        </article>
-                                    </div>
+                            <ul class="footer-top__list">
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Компания
+                                    </a>
                                 </li>
-                                <li class="reviews__item" data-linked-with="two">
-                                    <div class="reviews__display-inner">
-                                        <div class="reviews__avatar">
-                                            <img class="reviews__avatar-img" src="./images/rewives_avatar2.png" alt="">
-                                        </div>
-                                        <article class="reviews__content">
-                                            <h3 class="reviews__title">
-                                                Крутой дизайн
-                                            </h3>
-                                            <div class="reviews__text">
-                                                <p>
-                                                    После тренировок всегда хочется быстро закинуться чем-то белковым,
-                                                    потому что до дома ещё нужно доехать. А кушать хочется. Протеиновые
-                                                    батончики всегда выручают в этом плане. Спасибо производителю за
-                                                    этот качественный и экологичный продукт.
-                                                </p>
-                                            </div>
-                                            <div class="reviews__autor">
-                                                Вадим Грачев
-                                            </div>
-                                        </article>
-                                    </div>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Портфолио
+                                    </a>
                                 </li>
-                                <li class="reviews__item" data-linked-with="three">
-                                    <div class="reviews__display-inner">
-                                        <div class="reviews__avatar">
-                                            <img class="reviews__avatar-img" src="./images/rewives_avatar3.png" alt="">
-                                        </div>
-                                        <article class="reviews__content">
-                                            <h3 class="reviews__title">
-                                                На долго хватает заряда
-                                            </h3>
-                                            <div class="reviews__text">
-                                                <p>
-                                                    Батончики понравились. На мой взгляд слегка завышена цена по
-                                                    сравнению с конкурентами, однако, как говорится – оно того стоит.
-                                                    Нравится носить с собой, нравится держать в руке. Ну и конечно же,
-                                                    кушать. Идеально утоляют голод, хоть и не надолго. Через час уже ем
-                                                    ещё один. Но это скорее плюс, чем минус.
-                                                </p>
-                                            </div>
-                                            <div class="reviews__autor">Мария Орлова</div>
-                                        </article>
-                                    </div>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Проектирование
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Ресторанам
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Застройщикам
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Гос.заказчикам
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Таблет-питание
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Сервис
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Новости
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Контакты
+                                    </a>
                                 </li>
                             </ul>
                         </div>
-                        <ul class="reviews__switcher">
-                            <li class="reviews__switcher-item interactive-avatar">
-                                <a href="#" class="interactive-avatar__link" data-open="one">
-                                    <img class="interactive-avatar__img" src="./images/rewives_avatar1.png" alt="">
-                                </a>
-                            </li>
-                            <li class="reviews__switcher-item interactive-avatar">
-                                <a href="#" class="interactive-avatar__link" data-open="two">
-                                    <img class="interactive-avatar__img" src="./images/rewives_avatar2.png" alt="">
-                                </a>
-                            </li>
-                            <li class="reviews__switcher-item interactive-avatar">
-                                <a href="#" class="interactive-avatar__link" data-open="three">
-                                    <img class="interactive-avatar__img" src="./images/rewives_avatar3.png" alt="">
-                                </a>
-                            </li>
-                        </ul>
+
+                        <div class="footer-top__block">
+                            <div class="footer-top__title-list">
+                                <span>
+                                    Оборудование
+                                </span>
+                            </div>
+                            <ul class="footer-top__list">
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Тепловое
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Холодильное
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Электромеханическое
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Посудомоечное
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Барное
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Хлебопекарное
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Линии раздачи
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Нейтральное
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Для фаст фуда
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Для залов
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-top__block">
+                            <div class="footer-top__title-list">
+                                <span>
+                                    Предложения
+                                </span>
+                            </div>
+                            <ul class="footer-top__list active">
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Кафе, барам, ресторанам
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Дестким садам и школам
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Таблет-питание
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Для кондитерских
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Для пиццерий
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Для магазинов
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Для воинских частей
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        Все предложения
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-top__block">
+                            <div class="footer-top__title-list">
+                                <span>
+                                    Контакты
+                                </span>
+                            </div>
+                            <ul class="footer-top__list contacts--padding">
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        8 495 150-31-71
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <a href="#">
+                                        8 800 500 43 44
+                                    </a>
+                                </li>
+                                <li class="footer-top__item">
+                                    <span>звонок беспланый</span>
+                                </li>
+
+                                <li class="footer-top__item">
+                                    <span>Пн-Пт</span>
+                                    <span>09:00 до 18:00</span>
+                                </li>
+
+                                <li class="footer-top__item">
+                                    <span>com@stolovay.ru</span>
+                                </li>
+                                <li class="footer-top__item">
+                                    <span>info@stolovay.ru</span>
+                                </li>
+                                <li class="footer-top__item">
+                                    <span>111524, Москва, </span>
+                                </li>
+                                <li class="footer-top__item">
+                                    <span>Рязанский проспект 24к2 </span>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section data-sidemenu-theme="#E01F3D" data-section-index="6" class="section-video section flex-position">
-                <div class="headline-container">
-                    <h3 class="headline">
-                        как мы работаем
-                    </h3>
-                </div>
-                <div class="video__container">
-                    <div class="video__player">
-                        <div id="player"></div>
-                    </div>
-                    <div class="video__toolbar">
-                        <div class="duration">
-                            <img id="playButton" class="play duration_img" src="./images/1.png" alt="Play">
-                            <img id="pauseButton" class="pause duration_img" src="./images/pause.svg" alt="Pause">
-                            <input id="durationLevel" type="range" class="duration__length">
-                        </div>
-                        <div class="sound">
-                            <img src="./images/2.png" id="mic" class="sound__mic"> </img>
-                            <div class="sound__volume">
-                                <input id="miclevel" class="duration__length duration__length--other" type="range">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section data-sidemenu-theme="#E01F3D" data-section-index="7" class="section order-section"
-                style="background-image: url(./images/bg-form.png);">
-                <div class="container flex-position">
-                    <div class="headline-container">
-                        <h3 class="headline headline-color--white">
-                            закажите доставку
-                        </h3>
-                    </div>
-                    <form class="form" autocomplete="off" action="">
-                        <input name="to" type="hidden" value="somewhere@mail.com">
-                        <div class="form__col">
-                            <div class="form__row">
-                                <label class="form__block">
-                                    <div class="form__title">Имя</div>
-                                    <input name="name" class="form__input" type="text" tabindex="1">
-                                </label>
-                                <label class="form__block">
-                                    <div class="form__title">Телефон</div>
-                                    <input name="phone" class="form__input" type="tell" tabindex="2">
-                                </label>
-                            </div>
-                            <div class="form__row">
-                                <label class="form__block">
-                                    <div class="form__title">Улица</div>
-                                    <input class="form__input" type="text" tabindex="3">
-                                </label>
-                            </div>
-                            <div class="form__row">
-                                <label class="form__block">
-                                    <div class="form__title">Дом</div>
-                                    <input class="form__input" type="text" tabindex="4">
-                                </label>
-                                <label class="form__block">
-                                    <div class="form__title">Корпус</div>
-                                    <input class="form__input" type="text" tabindex="5">
-                                </label>
-                                <label class="form__block">
-                                    <div class="form__title">Квартира</div>
-                                    <input class="form__input" type="text" tabindex="6">
-                                </label>
-                                <label class="form__block">
-                                    <div class="form__title">Этаж</div>
-                                    <input class="form__input" type="text" tabindex="7">
-                                </label>
-                            </div>
-                        </div>
-                        <div class="form__col">
-                            <div class="form__row">
-                                <label class="form__block">
-                                    <div class="form__title">Комментарий</div>
-                                    <textarea tabindex="8" name="comment" class="form__input form__input--textarea"
-                                        type="textarea"></textarea>
-                                </label>
-                            </div>
-
-                            <div class="form__controls">
-                                <label class="radio">
-                                    <input type="radio" name="option" class="radio__elem" tabindex="9">
-                                    <div class="radio__visible"></div>
-                                    <div class="radio__title">Потребуется сдача</div>
-                                </label>
-                                <label class="radio">
-                                    <input type="radio" name="option" class="radio__elem" tabindex="0">
-                                    <div class="radio__visible"></div>
-                                    <div class="radio__title">Оплата картой</div>
-                                </label>
-                            </div>
-                            <div class="form__controls">
-                                <label class="radio radio--checkbox">
-                                    <input type="checkbox" class="radio__elem" tabindex="11">
-                                    <div class="radio__visible"></div>
-                                    <div class="radio__title">Не перезванивать</div>
-                                </label>
-                            </div>
-
-                            <div class="form__btn">
-                                <button type="submit" class="btn">ЗАКАЗАТЬ</button>
-                                <input type="reset" value="очистить" class="form__btn-reset">
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </section>
-
-            <section data-sidemenu-theme="#E01F3D" data-section-index="8" class="section section-map">
-                <div id="map" style="width: 100%; height: 100%"></div>
-
-                <footer class="footer">
-                    <div class="container">
-                        <div class="footer__contacts">
-                            <div class="footer__adres-container">
-                                <div class="footer__adres">Москва, ул.Новый Арбат, д.31/12</div>
-                                <div class="phone">
-                                    <svg class="phone__icon">
-                                        <use href="./sprite.svg#phone">
-                                        </use>
-                                    </svg>
-                                    <a href="tell:+78009039090" class="phone__link">8 800 903 90 90</a>
+            <section class="section__footer-bottom">
+                <div class="container">
+                    <div class="footer-coupiright__container">
+                        <div class="footer-coupiright__logo">
+                            <img src="./images/logo.png" alt="logo">
+                            <div class="logo__text-content">
+                                <div class="logo__title--small">
+                                    Столовая.РУ
+                                </div>
+                                <div class="logo__subtitle--small">
+                                    Создание оптимальных пищеблоков
                                 </div>
                             </div>
-
-                            <div class="footer__icon-social icon-social">
-                                <svg class="icon-social__link">
-                                    <use href="./sprite.svg#vk">
-                                    </use>
-                                </svg>
-                                <svg class="icon-social__link">
-                                    <use href="./sprite.svg#fb">
-                                    </use>
-                                </svg>
-                                <svg class="icon-social__link">
-                                    <use href="./sprite.svg#in">
-                                    </use>
-                                </svg>
-                                <svg class="icon-social__link">
-                                    <use href="./sprite.svg#tv">
-                                    </use>
-                                </svg>
-                            </div>
+                        </div>
+                        <div class="footer-coupiright__text">
+                            <a class="footer-coupiright__link" href="#">
+                                Сайт разработан NTI-systems
+                            </a>
                         </div>
                     </div>
-                </footer>
+                </div>
             </section>
-        </div>
+        </footer>
+    </main>
 
-        <div id="modal" class="modal">
-            <div class="modal__container">
-                <span class="modal__title">Cообщение отправлено</span>
-                <button class="btn app-submit-btn">ЗАКРЫТЬ</button>
-            </div>
-        </div>
-
-        <nav class="fixed-menu">
-            <ul class="fixed-menu__list">
-                <li class="fixed-menu__item fixed-menu__item--active">
-                    <a data-scroll-to="0" href="#" class="fixed-menu__link"><span
-                            class="menu-link-dot-decoration"></span></a>
-                </li>
-                <li class="fixed-menu__item">
-                    <a data-scroll-to="1" href="" class="fixed-menu__link"><span
-                            class="menu-link-dot-decoration"></span></a>
-                </li>
-                <li class="fixed-menu__item">
-                    <a data-scroll-to="2" href="" class="fixed-menu__link"><span
-                            class="menu-link-dot-decoration"></span></a>
-                </li>
-                <li class="fixed-menu__item">
-                    <a data-scroll-to="3" href="" class="fixed-menu__link"><span
-                            class="menu-link-dot-decoration"></span></a>
-                </li>
-                <li class="fixed-menu__item">
-                    <a data-scroll-to="4" href="" class="fixed-menu__link"><span
-                            class="menu-link-dot-decoration"></span></a>
-                </li>
-                <li class="fixed-menu__item">
-                    <a data-scroll-to="5" href="" class="fixed-menu__link"><span
-                            class="menu-link-dot-decoration"></span></a>
-                </li>
-                <li class="fixed-menu__item">
-                    <a data-scroll-to="6" href="" class="fixed-menu__link"><span
-                            class="menu-link-dot-decoration"></span></a>
-                </li>
-                <li class="fixed-menu__item">
-                    <a data-scroll-to="7" href="" class="fixed-menu__link"><span
-                            class="menu-link-dot-decoration"></span></a>
-                </li>
-                <li class="fixed-menu__item">
-                    <a data-scroll-to="8" href="" class="fixed-menu__link"><span
-                            class="menu-link-dot-decoration"></span></a>
-                </li>
-            </ul>
-        </nav>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.19/jquery.touchSwipe.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.4/mobile-detect.min.js"></script>
-        <script src="./libs/fancybox/jquery.fancybox.js"></script>
-
-        <script src="https://www.youtube.com/iframe_api"></script>
-        <script src="./scripts/video.js"></script>
-
-        <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-        <script src="./scripts/map.js"></script>
-
-        <script src="./scripts/main.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./scripts/main.min.js"></script>
 </body>
 
 </html>
