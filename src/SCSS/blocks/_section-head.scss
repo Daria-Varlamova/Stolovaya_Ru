@@ -14,9 +14,9 @@
 
         .sidebar-left__title {
             color: #ffaf2d;
-            font-size: 24px;
+            font-size: 20px;
             font-weight: 400;
-            padding: 24px 0 20px 27px;
+            padding: 20px 0px 20px 20px;
         }
 
         .sidebar-left__item {
@@ -35,7 +35,7 @@
                 align-items: center;
                 justify-content: space-between;
                 padding: 0 21px 0 27px;
-                transition: all .5s;
+                transition: all .3s;
 
                 &::after {
                     content: '>';
@@ -44,11 +44,11 @@
                 }
 
                 &:hover {
-                    transition: all .5s;
+                    transition: all .3s;
                     color: #ffaf2d;
 
                     &::after {
-                        transition: all .5s;
+                        transition: all .3s;
                         color: #ffaf2d;
                     }
                 }
