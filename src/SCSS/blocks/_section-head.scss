@@ -8,52 +8,11 @@
         justify-content: space-between;
     }
 
-    .sidebar-left {
-        width: 100%;
-        background-color: #ffffff;
-
-        .sidebar-left__title {
-            color: #ffaf2d;
-            font-size: 20px;
-            font-weight: 400;
-            padding: 20px 0px 20px 20px;
-        }
-
-        .sidebar-left__item {
-            border-bottom: 1px solid #bababa;
-
-            &:last-child {
-                border-bottom: none;
-            }
-
-            .sidebar-left__link {
-                color: #303030;
-                line-height: 45px;
-                font-size: 16px;
-                font-weight: 400;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                padding: 0 21px 0 27px;
-                transition: all .3s;
-
-                &::after {
-                    content: '>';
-                    display: block;
-                    color: #cecece;
-                }
-
-                &:hover {
-                    transition: all .3s;
-                    color: #ffaf2d;
-
-                    &::after {
-                        transition: all .3s;
-                        color: #ffaf2d;
-                    }
-                }
-            }
-        }
+    .sidebar-left__title {
+        color: #ffaf2d;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 20px 0px 20px 20px;
     }
 
     .sidebar-right {
@@ -85,6 +44,47 @@
             font-size: 16px;
             font-weight: 100;
             margin-bottom: 20px;
+        }
+    }
+}
+
+.sidebar-left {
+    width: 100%;
+    background-color: #ffffff;
+
+    .sidebar-left__item {
+        border-bottom: 1px solid #bababa;
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+
+    .sidebar-left__link {
+        color: #303030;
+        line-height: 45px;
+        font-size: 16px;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 21px 0 27px;
+        transition: all .3s;
+
+        &::after {
+            content: '>';
+            display: block;
+            color: #cecece;
+        }
+
+        &:hover {
+            transition: all .3s;
+            color: #ffaf2d;
+
+            &::after {
+                transition: all .3s;
+                color: #ffaf2d;
+            }
         }
     }
 }

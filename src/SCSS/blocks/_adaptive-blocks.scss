@@ -1,6 +1,6 @@
 .adaptive__burger-menu {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     background-color: #faad3d;
     display: none;
@@ -10,7 +10,7 @@
     z-index: 15;
 
     span {
-        width: 25px;
+        width: 30px;
         height: 2px;
         background-color: white;
         margin-bottom: 5px;
@@ -24,22 +24,36 @@
 
 .adaptive__icons {
     display: none;
+    align-items: center;
+
+    .sum {
+        top: 5px;
+        position: relative;
+        left: 50px;
+        color: #fda11c;
+        font-size: 25px;
+    }
 
     img {
         width: 50px;
         height: 50px;
+
+        &:nth-child(2) {
+            margin: 0 30px;
+        }
     }
 }
 
-.adaptive__block--container {
-    display: none;
-    border-top: 1px solid grey;
+.sidebar__adaptive--container {
+    border-bottom: 1px solid grey;
+    background-color: #f1f1f1;
+
     .adaptive__block {
         width: 100%;
-        padding: 15px 0;
-        
+        padding: 15px 20px;
+
         display: flex;
-        font-size: 18px;
+        font-size: 30px;
         justify-content: space-between;
     }
 }

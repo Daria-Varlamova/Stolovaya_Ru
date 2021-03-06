@@ -38,16 +38,33 @@ body {
             }
         }
     }
+}
 
-    .footer-top__block {
+.footer-top__block {
 
-        &.active {
-            .footer-top__list {
-                display: block;
+    &.active {
+        .footer-top__title-list span::after {
+            content: '-';
+        }
+    }
+}
+
+.section-head {
+
+    .sidebar-left {
+        .adaptive__block {
+            .arrow {
+                transform: rotate(0deg);
             }
-
-            .footer-top__title-list span::after {
-                content: '-';
+        }
+        
+        &.sidebar__menu-open {
+            height: fit-content;
+            
+            .adaptive__block {
+                .arrow {
+                    transform: rotate(90deg);
+                }
             }
         }
     }
