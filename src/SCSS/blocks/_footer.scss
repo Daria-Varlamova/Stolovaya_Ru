@@ -12,16 +12,17 @@
 
 .footer-top__title-list {
     color: #777777;
-    font-size: 24px;
+    font-size: 1.7rem;
     padding-bottom: 35px;
 }
 
 .footer-top__item {
     padding-bottom: 10px;
 
-    a , span {
+    a,
+    span {
         color: #ffffff;
-        font-size: 20px;
+        font-size: 1.4rem;
         transition: all .3s;
 
         &:hover {
@@ -34,7 +35,6 @@
         padding-bottom: 0;
     }
 }
-
 
 .contacts--padding {
     .footer-top__item {
@@ -57,28 +57,27 @@
 
 .section__footer-bottom {
     background: #1f1f1f;
+}
 
-    .footer-coupiright__logo {
-        display: flex;
+.footer-coupiright__logo {
+    display: flex;
+}
 
-        .logo__text-content {
-            margin-left: 17px;
+.logo__text-content {
+    margin-left: 17px;
 
-            .logo__title--small {
-                color: #ffffff;
-                font-size: 24px;
-            }
-
-            .logo__subtitle--small {
-                color: #787878;
-                font-size: 16px;
-            }
-        }
-
-    }
-
-    .footer-coupiright__link {
+    .logo__title--small {
         color: #ffffff;
-        font-size: 18px;
+        font-size: 1.7rem;
     }
+
+    .logo__subtitle--small {
+        color: #787878;
+        font-size: 1.1rem;
+    }
+}
+
+.footer-coupiright__link {
+    color: #ffffff;
+    font-size: 1.2rem;
 }

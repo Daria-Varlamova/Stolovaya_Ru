@@ -52,9 +52,6 @@ for (let i = 0; i < footerLink.length; i++) {
 
 // LEFT SIDEBAR
 
-let sidebarLink = body.querySelector('.sidebar__adaptive--container');
-const sidebarOpen = body.querySelector('.sidebar-left');
-
-sidebarLink.addEventListener('click', function () {
-  sidebarOpen.classList.toggle('sidebar__menu-open');
-})
+$('.sidebar__adaptive--container').on('click', () => {
+  $('.sidebar-left__list').slideToggle();
+});

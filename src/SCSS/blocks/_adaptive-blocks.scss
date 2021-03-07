@@ -31,7 +31,7 @@
         position: relative;
         left: 50px;
         color: #fda11c;
-        font-size: 25px;
+        font-size: 1.7rem;
     }
 
     img {
@@ -45,15 +45,15 @@
 }
 
 .sidebar__adaptive--container {
+    display: none;
     border-bottom: 1px solid grey;
     background-color: #f1f1f1;
 
     .adaptive__block {
         width: 100%;
         padding: 15px 20px;
-
         display: flex;
-        font-size: 30px;
+        font-size: 2.1rem;
         justify-content: space-between;
     }
 }
