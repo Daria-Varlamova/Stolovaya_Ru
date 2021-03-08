@@ -99,7 +99,7 @@
     }
 
     .sidebar-left__item {
-        padding: 25px 0;
+        padding: 28px 0;
 
         .sidebar-left__link {
             font-size: 30px;
@@ -108,6 +108,11 @@
 
     .sidebar-left__list {
         display: none;
+    }
+
+    .block-left__btn {
+        width: 100px;
+        height: 100px;
     }
 
 }
@@ -245,13 +250,19 @@
     .recomendation__title-container {
         width: 100%;
     }
+
+    .card-left--width {
+        max-width: 100%;
+    }
 }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 860px) {
+
 
     .footer-coupiright__container {
         flex-direction: column;
+        align-items: baseline;
 
         .footer-coupiright__logo {
             margin-bottom: 20px;

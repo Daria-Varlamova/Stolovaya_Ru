@@ -38,7 +38,7 @@
 
     .line {
         display: block;
-        width: 15px;
+        width: 40%;
         height: 1px;
         background-color: white;
         position: absolute;
@@ -48,7 +48,7 @@
 
         &:last-child {
             width: 1px;
-            height: 15px;
+            height: 40%;
         }
     }
 }
